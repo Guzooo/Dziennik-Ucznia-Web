@@ -1,0 +1,23 @@
+.bgPrimary{
+    background-color: #FFFFFF;
+}
+
+.bgPrimaryTranslucent{
+    background-color: #ffffffE6;
+}
+
+.bgPrimaryDark{
+    background-color: #c9c9c9;
+}
+
+.bgSecondary{
+    background-color: #363636;
+}
+
+.bgSecondaryDark{
+    background-color: #6c6c6c;
+}
+
+.bgAccent{
+    background-color: #34ab2b;
+}

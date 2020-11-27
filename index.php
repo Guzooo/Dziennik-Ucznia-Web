@@ -1,35 +1,43 @@
 <html>
     <head>
         <title>Organizer Ucznia</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="resources/style/style.css">
+        <link rel="stylesheet" href="resources/color/color.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="baner">
-
-        </div>
-        <div id="lewy">
-
-        </div>
-        <div id="prawy">
-
+        <nav class="navbar bgPrimaryTranslucent shadow">
+            <div class="container-fluid">
+                <div class="col-4">
+                    <a class="navbar-brand" href="#">
+                        <div class="d-inline-block align-top">
+                            <img class="rounded-circle" src="https://lh3.googleusercontent.com/nSanxwfGDbQUXogLXkUq6n5JplTObqs72T1Ym5zvAVhmu6Jr5LodJyrrePtzRT2V7Jw" width="50" height="50" alt="Logo Guzooo">
+                            <img class="rounded-circle" src="https://lh3.googleusercontent.com/QTAMstRyyggKhfhtgSF5pwpNGrU8vVlTB8LajYuS2TyykhcvzBH98Kw3Spni_i2QWiMT" width="50" height="50" alt="Logo Aplikacji">
+                        </div>
+                        <div class="d-inline-block">
+                            <span class="textNormal">Organizer Ucznia</span><br>
+                            <span class="textDescription">© Guzooo 2020</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <span class="col-12 textNormal">Semestr: 1 • Średnia końcowa: 4,00 • Polski za 5 minut</span>
+                        <span class="col-6 textDescription">Średnia końcowa 4.13 • 4</span>
+                        <!-- <span class="col-6 textDescription">Średnia końcowa 4.62 • 5</span> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid position-fixed h-100">
+            <div class="row h-100">
+                <div class="col-4 bgAccent h-100"></div>
+                <div class="col-8 bgSecondary h-100"></div>
+            </div>
         </div>
     </body>
     <style>
-        #baner{
-            width:100%;
-            height:10%;
-            background-color:red;
-        }
-        #lewy{
-            width:35%;
-            height:90%;
-            background-color:yellow;
-            float: left;
-        }
-        #prawy{
-            width:65%;
-            height:90%;
-            background-color:green;
-            float: right;
-        }
-    </style>
 </html>

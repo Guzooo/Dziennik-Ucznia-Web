@@ -1,0 +1,15 @@
+.logo{
+    height: 80%;
+    margin-left: 8px;
+    margin-top: auto;
+}
+
+.textDescription{
+    font-size: 16px;
+    color: #363636;
+}
+
+.textNormal{
+    font-size: 20px;
+    color: #363636;
+}

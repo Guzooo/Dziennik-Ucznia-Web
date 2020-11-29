@@ -34,6 +34,14 @@
     background-color: #FFFFFF;
 }
 
+.clicableCard .material-icons{
+    color: #363636;
+}
+
+.clicableCard:hover span{
+    color: #34ab2b;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -87,8 +95,4 @@
 .navigationElement:active span{
     color: #34ab2b;   
     font-size: 30px;
-}
-
-.appElement{
-    text-align: center;
 }

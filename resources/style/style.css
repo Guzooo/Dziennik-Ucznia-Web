@@ -1,9 +1,3 @@
-.logo{
-    height: 80%;
-    margin-left: 8px;
-    margin-top: auto;
-}
-
 .textDescription{
     font-size: 16px;
     color: #363636;
@@ -12,4 +6,78 @@
 .textNormal{
     font-size: 20px;
     color: #363636;
+}
+
+.cardRail{
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-y: auto;
+}
+
+.card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    border: 0;
+    border-radius: 0.75rem;
+    background-color: #FFFFFF;
+}
+
+.scrollable{
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c9c9c9E6;
+    border-radius: 0.5rem;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #c9c9c9;
+}
+
+.topShadow {
+    box-shadow: -2rem -0.2rem 2rem -5px rgba(0,0,5,.15);
+}
+
+.navigation_element {
+    padding-top:8px;
+    text-align: center;
+    /* //font-size: 30px; */
+    color: #c9c9c9;
+}
+
+.navigation_element:hover{
+    padding-top:6px;
+}
+
+.navigation_element:hover p{
+    visibility: visible;
+}
+
+.navigation_element:hover span{
+    font-size: 26px;
+}
+
+.navigation_element:active{
+    padding-top:2px;
+}
+
+.navigation_element:active p{
+    color: #34ab2b;   
+}
+
+.navigation_element:active span{
+    color: #34ab2b;   
+    font-size: 30px;
 }

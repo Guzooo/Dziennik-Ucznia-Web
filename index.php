@@ -34,10 +34,12 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-5">
+                <div class="col-5 p-0">
                     <?php include 'pages/main/main.php' ?>
                 </div>
-                <div class="col-7"> </div>
+                <div class="col-7 p-0">
+                    <?php include 'pages/info/info.php' ?>
+                </div>
             </div>
         </div>
     </body>

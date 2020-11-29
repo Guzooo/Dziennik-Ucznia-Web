@@ -8,6 +8,17 @@
     color: #363636;
 }
 
+.textBold{
+    font-weight: bold;
+    font-size: 22px;
+    color: #363636;
+}
+
+.textTitle{
+    font-size: 26px;
+    color: #363636;
+}
+
 .cardRail{
     padding-left: 5px;
     padding-right: 5px;
@@ -21,10 +32,6 @@
     border: 0;
     border-radius: 0.75rem;
     background-color: #FFFFFF;
-}
-
-.scrollable{
-    overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
@@ -50,34 +57,38 @@
     box-shadow: -2rem -0.2rem 2rem -5px rgba(0,0,5,.15);
 }
 
-.navigation_element {
+.navigationElement {
     padding-top:8px;
     text-align: center;
     /* //font-size: 30px; */
     color: #c9c9c9;
 }
 
-.navigation_element:hover{
+.navigationElement:hover{
     padding-top:6px;
 }
 
-.navigation_element:hover p{
+.navigationElement:hover p{
     visibility: visible;
 }
 
-.navigation_element:hover span{
+.navigationElement:hover span{
     font-size: 26px;
 }
 
-.navigation_element:active{
+.navigationElement:active{
     padding-top:2px;
 }
 
-.navigation_element:active p{
+.navigationElement:active p{
     color: #34ab2b;   
 }
 
-.navigation_element:active span{
+.navigationElement:active span{
     color: #34ab2b;   
     font-size: 30px;
+}
+
+.appElement{
+    text-align: center;
 }
